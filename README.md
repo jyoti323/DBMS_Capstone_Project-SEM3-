@@ -1,6 +1,7 @@
 # DBMS_Capstone_Project-SEM3-
 
 INTRODUCTION:
+
 An Online Marketplace System is a digital platform that allows multiple sellers to showcase and sell their products to customers through the internet. It provides a convenient environment where customers can explore different products, compare prices, place orders, and share their feedback, while sellers can manage their product listings and track sales.
 With the rapid growth of e-commerce, managing large amounts of information related to customers, sellers, products, orders, and transactions has become increasingly important. A Database Management System (DBMS) helps organize this information systematically, making data storage, retrieval, and management more efficient and reliable.
 The main purpose of this project is to design and implement a relational database for an Online Marketplace System using MySQL. The database consists of seven major tables: Sellers, Customers, Categories, Products, Orders, Order_Items, and Reviews. These tables are connected through primary keys and foreign keys to maintain relationships and ensure data consistency.
@@ -9,9 +10,11 @@ Furthermore, the system helps analyze total sales, identify top-selling products
 Overall, the Online Marketplace System demonstrates how database management concepts can be applied to a real-world e-commerce application. It provides practical knowledge of relational database design, SQL query execution, data analysis, and database optimization.
 
 ER DIAGRAM:
+
 <img width="2600" height="1800" alt="Online_Marketplace_ER_Diagram_Dark" src="https://github.com/user-attachments/assets/0d2bd171-7729-4696-83fe-fdbcadaf50ab" />
 
 Problems Being Faced :
+
 1.	Difficulty in Managing Data: Managing customer, seller, product, and order details separately can lead to confusion and duplication of records.
 2.	Data Redundancy: Repeated storage of the same information increases database size and may cause inconsistencies.
 3.	Difficulty in Tracking Orders: Tracking customer orders, order dates, product quantities, and order details becomes complicated without proper database management.
@@ -22,6 +25,7 @@ Problems Being Faced :
 8.	Limited Business Insights: Without advanced database queries, it is difficult to identify customer purchasing patterns, spending categories, and monthly sales growth.
 
 Proposed Solution:
+
 The proposed solution is to develop an Online Marketplace Database Management System using MySQL. The system will organize and manage marketplace information through a structured relational database.
 •	Centralized Database: Create a single database to store customer, seller, product, category, order, and review information.
 •	Structured Database Design: Use properly related tables with primary keys and foreign keys to maintain data consistency and reduce redundancy.
